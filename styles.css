@@ -66,6 +66,7 @@ p.question {
 
 .presentation-image {
   width: 100%;
+  border-radius: 24px;
 }
 
 .hero-more-description {
@@ -205,4 +206,19 @@ p.question {
 .design-details h4 {
   font-weight: 500;
   font-size: 18px;
+}
+
+.more {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.see-more {
+  color: #2d9cdb;
+  text-decoration: none;
+}
+
+.more img {
+  padding-left: 10px;
 }
