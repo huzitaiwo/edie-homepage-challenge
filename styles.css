@@ -111,7 +111,7 @@ p.question {
 
 .secondary-header {
   font-size: 1.6rem;
-  max-width: 250px;
+  max-width: 270px;
   font-weight: 500;
   padding: 15px 0 30px;
 }
@@ -172,4 +172,37 @@ p.question {
 .card__button.active {
   background: #2d9cdb;
   color: #fff;
+}
+
+.design-image-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  height: 750px;
+}
+
+.design-image-grid img {
+  width: 100%;
+  border-radius: 24px;
+}
+
+.design-grid__1,
+.design-grid__3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.design-details {
+  padding: 15px 0;
+}
+
+.design-details p {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 14px;
+}
+
+.design-details h4 {
+  font-weight: 500;
+  font-size: 18px;
 }
