@@ -127,6 +127,7 @@ p.question {
   background: #fff;
   padding: 30px;
   border-radius: 20px;
+  transition: all 0.5s ease-in-out;
 }
 
 .card.active {
@@ -141,6 +142,8 @@ p.question {
   align-items: center;
   justify-content: center;
   margin-bottom: 30px;
+  position: relative;
+  transition: 0.5s ease-out;
 }
 
 .brand-design {
