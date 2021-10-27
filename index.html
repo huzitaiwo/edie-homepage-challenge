@@ -5,11 +5,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edie web</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"> -->
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    
+    <header>
+        <nav class="container">
+            <div class="logo">Edie</div>
+            <ul class="nav-links">
+                <li class="nav-list"><a href="#">Home</a></li>
+                <li class="nav-list"><a href="#">Services</a></li>
+                <li class="nav-list"><a href="#">Our Works</a></li>
+                <li class="nav-list"><a href="#">Client</a></li>
+                <li class="nav-list"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="presentation">
+            <div>
+                <p class="question">Unhappy with your website?</p>
+                <h2 class="hero-description">We create beautiful and fast web services</h2>
+            </div>
+            <img class="presentation-image" src="./images/hero-image.jpg" alt="presentation image">
+            <div>
+                <h2 class="hero-description">Story, emotion and purpose</h2>
+                <p>We help transform your ideas into real world applications that will outperform your toughest competition and help you achieve your strategic goals in short period of time.</p>
+                <form class="contact-form" id="contact-form">
+                    <p>Want us to contact you?</p>
+                    <div class="form-field">
+                        <input type="email" placeholder="Email">
+                        <button class="form-field-btn" type="submit">Join</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section>
+            <h2>Good design means business</h2>
+            <div class="design-image-grid">
+                <div class="design-grid__1">
+                    <img src="./images/smarthome.jpg" alt="">
+                    <div class="design-details">
+                        <p class="type">Full stack application</p>
+                        <h4>Smart home dashboard</h4>
+                    </div>
+                </div>
+                <div class="design-grid__2">
+                    <img src="./images/onboard.png" alt="">
+                    <div class="design-details">
+                        <p class="type">UX/UI design</p>
+                        <h4>Onboard application</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="design-image-grid">
+                <div class="design-grid__3">
+                    <img src="./images/booking.png" alt="">
+                    <div class="design-details">
+                        <p class="type">Mobile application</p>
+                        <h4>Booking system</h4>
+                    </div>
+                </div>
+                <div class="design-grid__4">
+                    <img src="./images/juice-product.png" alt="">
+                    <div class="design-details">
+                        <p class="type">Front End application</p>
+                        <h4>Juice product homepage</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
