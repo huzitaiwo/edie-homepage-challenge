@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Poppins:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Poppins:wght@400;500;700&display=swap");
 
 * {
   margin: 0;
@@ -17,7 +17,7 @@ h1 {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto;
   padding: 30px;
 }
@@ -40,4 +40,30 @@ nav.container {
 .nav-links a {
   text-decoration: none;
   color: #000;
+}
+
+.presentation-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+p.question {
+  color: #2d9cdb;
+}
+
+.hero-description {
+  font-size: 1.8rem;
+  max-width: 350px;
+  font-weight: 500;
+  padding: 15px 0 30px;
+}
+
+.presentation-image {
+  width: 100%;
+}
+
+.hero-more-description {
+  max-width: 350px;
+  padding-bottom: 30px;
+  font-weight: 400;
 }
