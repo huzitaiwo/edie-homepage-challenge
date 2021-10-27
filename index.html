@@ -23,7 +23,7 @@
         </nav>
     </header>
     <main class="container">
-        <section class="presentation">
+        <div class="presentation">
             <div class="presentation-wrapper">
                 <p class="question">Unhappy with your website?</p>
                 <h2 class="hero-description">We create beautiful and fast web services</h2>
@@ -35,14 +35,43 @@
                 <form class="contact-form" id="contact-form">
                     <p>Want us to contact you?</p>
                     <div class="form-field">
-                        <input type="email" placeholder="Email">
-                        <button class="form-field-btn" type="submit">Join</button>
+                        <input class="form-field__input" type="email" placeholder="Email">
+                        <button class="form-field__btn" type="submit">Join</button>
                     </div>
                 </form>
             </div>
+        </div>
+        <section>
+            <h2 class="secondary-header">We offer high demand services</h2>
+            <div class="card-wrapper">
+                <div class="card">
+                    <div class="card__brand brand-design">
+                        <img src="./icons/design.svg" alt="">
+                    </div>
+                    <h3 class="card__title">UI/UX Design</h3>
+                    <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+                    <button class="card__button">Get started</button>
+                </div>
+                <div class="card active">
+                    <div class="card__brand brand-frontend">
+                        <img src="./icons/frontend.svg" alt="">
+                    </div>
+                    <h3 class="card__title">Front End</h3>
+                    <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+                    <button class="card__button active">Get started</button>
+                </div>
+                <div class="card">
+                    <div class="card__brand brand-backend">
+                        <img src="./icons/backend.svg" alt="">
+                    </div>
+                    <h3 class="card__title">Back End</h3>
+                    <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+                    <button class="card__button">Get started</button>
+                </div>
+            </div>
         </section>
         <section>
-            <h2>Good design means business</h2>
+            <h2 class="secondary-header">Good design means business</h2>
             <div class="design-image-grid">
                 <div class="design-grid__1">
                     <img src="./images/smarthome.jpg" alt="">
