@@ -234,33 +234,48 @@ p.question {
   align-items: center;
 }
 
-/* .team__content-grid-image__1 {
-  grid-area: image_1;
+.meet {
+  color: #eb5757;
 }
 
-.team__content-grid-image__2 {
-  grid-area: image_2;
-}
-
-.team__content-grid-image__3 {
-  grid-area: image_3;
-} */
-
-.team__content-grid img {
-  width: 100%;
+.secondary-text {
+  max-width: 230px;
 }
 
 .team__content-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  /* grid-template-areas:
-    "image_1 image_1 image_1 image_2 image_2 image_2"
-    "image_1 image_1 image_1 image_3 image_3 image_3"; */
-  gap: 30px;
+  gap: 15px;
 }
 
-.meet {
-  color: #eb5757;
+.team__content-grid img {
+  width: 100%;
+  border-radius: 24px;
+}
+
+.team__content-grid-image__1 {
+  grid-row: 1 / 3;
+  align-self: center;
+}
+
+.longer-heading {
+  font-size: 1.6rem;
+  max-width: 900px;
+  font-weight: 500;
+  padding: 15px 0 30px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+}
+
+.author__image {
+  width: 87px;
+  height: 87px;
+  object-fit: cover;
+  border-radius: 24px;
+  margin-right: 15px;
 }
 
 @keyframes scope_up {
