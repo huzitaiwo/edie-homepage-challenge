@@ -1,6 +1,5 @@
 // refrences from the DOM
 const navLinks = document.querySelector('.nav-links');
-const navLists = document.querySelectorAll('.nav-links a');
 const hamburger = document.querySelector('.hamburger');
 const designGrids = document.querySelectorAll('.design-image-grid > div');
 const cards = document.querySelectorAll('.card');
@@ -19,11 +18,6 @@ hamburger.addEventListener("click", () => {
       hamburger.src = "./icons/hamburger.svg";
     }
 });
-
-navLists.forEach((list,i) => {
-        list.addEventListener('click', () => {
-            navLinks.classList.remove("active");
-        });
 
 // checked the viewport for the interaction: 1000px and above;
 const desktop = window.matchMedia("(min-width: 1000px)")
