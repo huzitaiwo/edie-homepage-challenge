@@ -12,5 +12,7 @@ cards.forEach((card,i) => {
 
     card.addEventListener('mouseleave', () => {
         card.classList.remove('active');
+        brands[i].style.transform = 'translateY(0px)';
+        cardButtons[i].classList.remove('active');
     });
 });
