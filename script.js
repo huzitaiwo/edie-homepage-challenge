@@ -1,3 +1,6 @@
+// refrences from the DOM
+const navLinks = document.querySelector('.nav-links');
+const hamburger = document.querySelector('.hamburger');
 const designGrids = document.querySelectorAll('.design-image-grid > div');
 const cards = document.querySelectorAll('.card');
 const brands = document.querySelectorAll('.card__brand');

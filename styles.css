@@ -48,6 +48,10 @@ nav.container {
   color: #000;
 }
 
+.hamburger {
+  display: none;
+}
+
 .presentation-wrapper {
   max-width: 900px;
   margin: 0 auto;
@@ -338,6 +342,10 @@ footer {
 
   .nav-links {
     display: none;
+  }
+
+  .hamburger {
+    display: initial;
   }
 
   .card-wrapper {
