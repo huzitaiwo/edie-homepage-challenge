@@ -278,6 +278,29 @@ p.question {
   margin-right: 15px;
 }
 
+footer {
+  background: #100e1d;
+  color: #fff;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.5fr;
+}
+
+.links {
+  list-style: none;
+}
+
+.list a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.contact-form {
+  justify-self: end;
+}
+
 @keyframes scope_up {
   from {
     transform: translateY(0);
