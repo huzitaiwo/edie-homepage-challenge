@@ -110,7 +110,7 @@ p.question {
   border-radius: 8px;
 }
 
-.secondary-header {
+.secondary-heading {
   font-size: 1.6rem;
   max-width: 270px;
   font-weight: 500;
@@ -282,5 +282,9 @@ p.question {
 
   .card {
     padding: 0px;
+  }
+
+  .more {
+    justify-content: flex-start;
   }
 }
