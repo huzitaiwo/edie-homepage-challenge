@@ -320,6 +320,10 @@ footer {
   align-items: center;
 }
 
+.social__icon img {
+  padding-right:15px;
+} 
+
 .contact-form {
   justify-self: end;
 }
