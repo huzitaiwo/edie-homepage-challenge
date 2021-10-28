@@ -6,6 +6,20 @@ const cards = document.querySelectorAll('.card');
 const brands = document.querySelectorAll('.card__brand');
 const cardButtons = document.querySelectorAll('.card__button');
 
+// reponsive navbar
+
+hamburger.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+  
+    //   toggle hamburger and close icon
+    if (navLinks.classList.contains("active")) {
+      hamburger.src = "./icons/close.svg";
+    } else {
+      hamburger.src = "./icons/hamburger.svg";
+    }
+});
+
+// checked the viewport for the interaction: 1000px and above;
 const desktop = window.matchMedia("(min-width: 1000px)")
 
 if(desktop.matches) {
