@@ -143,7 +143,6 @@ p.question {
   align-items: center;
   justify-content: center;
   margin-bottom: 30px;
-  transition: 0.5s ease;
 }
 
 .brand-design {
@@ -225,6 +224,15 @@ p.question {
 
 .more img {
   padding-left: 10px;
+}
+
+@keyframes scope_up {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-10px);
+  }
 }
 
 @media (max-width: 790px) {

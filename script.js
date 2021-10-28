@@ -10,13 +10,13 @@ if(desktop.matches) {
     cards.forEach((card,i) => {
         card.addEventListener('mouseenter', () => {
             card.classList.add('active');
-            brands[i].style.transform = 'translateY(-20px)';
+            brands[i].style.animation = 'scope_up 1.5s ease-in-out 2 alternate forwards';
             cardButtons[i].classList.add('active');
         });
 
         card.addEventListener('mouseleave', () => {
             card.classList.remove('active');
-            brands[i].style.transform = 'translateY(0)';
+            brands[i].style.animation = '';
             cardButtons[i].classList.remove('active');
         });
     });
