@@ -102,12 +102,12 @@ p.question {
 }
 
 .form-field__input {
-  flex: 1;
   border: none;
   height: 100%;
   padding: 0 10px;
   background: transparent;
   outline: none;
+  width:100%;
 }
 
 .form-field__btn {
